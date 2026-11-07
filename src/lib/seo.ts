@@ -65,6 +65,9 @@ export const organizationLd = () => ({
   name: SITE.orgName,
   url: SITE.orgUrl,
   slogan: SITE.orgTagline,
+  disambiguatingDescription:
+    "Technology company based in Bangladesh. NAVICORE OS is its business operating system. Not related to other products or companies named Navicore.",
+  address: { "@type": "PostalAddress", addressCountry: "BD" },
 });
 
 export const websiteLd = () => ({
