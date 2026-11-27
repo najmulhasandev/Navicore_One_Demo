@@ -66,9 +66,9 @@ export default function HomePage() {
       <section data-live="eager" data-tilt-root data-parallax-root className="bg-dark on-dark relative overflow-hidden text-white">
         <div className="aurora" aria-hidden="true"><i data-live="eager" /><i data-live="eager" /><i data-live="eager" /></div>
         <div className="horizon" aria-hidden="true" />
-        <div className="relative z-10 mx-auto max-w-7xl px-4 pb-20 pt-14 text-center sm:px-6 lg:pb-28 lg:pt-20">
+        <div className="relative z-10 mx-auto max-w-7xl px-4 pb-20 pt-[clamp(1.5rem,calc(10vh-3rem),3rem)] text-center sm:px-6 lg:pb-28">
           <h1 className="mx-auto max-w-6xl font-display text-[clamp(2.6rem,9.2vw,7rem)] font-extrabold leading-[0.98] tracking-[-0.05em] text-white">
-            <span style={stagger(0)} className="hero-in mb-7 inline-flex items-center gap-3 rounded-full bg-white/10 px-4 py-2 font-sans text-xs font-semibold uppercase leading-none tracking-[0.2em] text-mist ring-1 ring-white/25 sm:text-sm">
+            <span style={stagger(0)} className="hero-in mx-auto mb-7 flex w-fit items-center gap-3 rounded-full bg-white/10 px-4 py-2 font-sans text-xs font-semibold uppercase leading-none tracking-[0.2em] text-mist ring-1 ring-white/25 sm:text-sm">
               <i aria-hidden="true" className="block h-2 w-2 rounded-full bg-red ring-2 ring-baby-pink/60" />
               {h.hero.eyebrow}
             </span>
