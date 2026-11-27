@@ -8,6 +8,7 @@ import { getMessages } from "@/i18n/messages";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { StickyCta } from "@/components/layout/StickyCta";
+import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
 import { MotionController } from "@/components/motion/MotionController";
 import { motionInitScript } from "@/lib/motion-init";
 import { themeInitScript } from "@/lib/theme-init";
@@ -53,6 +54,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <Footer />
         <StickyCta label={m.nav.bookDemo} />
         <MotionController />
+        <GoogleAnalytics />
       </body>
     </html>
   );
